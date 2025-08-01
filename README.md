@@ -1,65 +1,108 @@
-HUST Map Shortest Path and Closest Parking Lot Finder
-This is a Python web application that allows users to: Find the shortest path between two locations on the Hanoi University of Science and Technology (HUST) map.
+---
 
-Locate the nearest parking lot using Dijkstra’s algorithm.
+# 🚗 HUST Map Shortest Path & Nearest Parking Finder
 
-Requirements
-Python 3.x installed on your machine
+A Python-based web application to help users:
 
-A web browser (e.g., Chrome)
+* 🔍 **Find the shortest path** between two locations on the Hanoi University of Science and Technology (HUST) campus map
+* 🅿️ **Locate the nearest parking lot** using Dijkstra’s algorithm
 
-A code editor like VS Code (optional but recommended)
+---
 
-Local environment capable of running a Flask server
+## 📦 Features
 
-How to Run
-Step 1: Clone the repository
+* Interactive web interface built with Flask
+* Route visualization on a dynamic map
+* Parking recommendation with shortest distance
+
+---
+
+## 🛠️ Requirements
+
+* Python 3.x
+* Flask-compatible environment
+* Web browser (e.g., Chrome)
+* Optional: VS Code or any code editor
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/knguyenz/hustnav1
-
 cd hustnav1
+```
 
-changing the path in app.py (sorry for the inconvenience as we used absolute path)
+> ⚠️ **Note:** This project uses **absolute paths** in `app.py`. You will need to **update them to your local machine paths** (see [Notes on File Paths](#-notes-on-file-paths)).
 
-Step 2: Install required libraries
+---
+
+### 2. Install dependencies
+
+```bash
 pip install -r requirements.txt
-Step 3: Run Flask server
+```
+
+---
+
+### 3. Run the Flask server
+
+```bash
 cd backend
 python app.py
-The Flask app will run at http://localhost:5000
+```
 
-The generated map will be saved at: backend/save/map.html
+The server will start at:
+📍 **[http://localhost:5000](http://localhost:5000)**
 
-Using the App
-Open your browser and go to: http://localhost:5000
+---
 
-Enter the starting location (e.g., C7) and the destination (e.g., D8), then click "Tìm đường" (Find route).
+## 🌐 Using the App
 
-Open the /map tab to view the generated route:
+1. Open your browser and navigate to:
+   **[http://localhost:5000](http://localhost:5000)**
 
-http://localhost:5000/map
+2. To **find a route**:
 
-To Find the Nearest Parking Lot
-Enter only the starting location.
+   * Input start and destination (e.g., `C7` to `D8`)
+   * Click **"Tìm đường" (Find route)**
+   * Open `http://localhost:5000/map` to view the result
 
-Click "Tìm nhà xe gần nhất" (Find nearest parking).
+3. To **find the nearest parking lot**:
 
-Go to the /map.html tab to view the route to the nearest parking lot.
+   * Input only the starting location
+   * Click **"Tìm nhà xe gần nhất" (Find nearest parking)**
+   * Open `http://localhost:5000/map` to view the route
 
-Notes on File Paths
-In app.py, make sure to replace all hardcoded file paths (such as for .osm, .json, .html) with the correct paths on your local machine. You can find the exact locations using File Explorer.
+---
 
-Test case
-pdf
+## 📁 Notes on File Paths
 
-Finding the shortest path between 2 locations
-pdf
+Make sure to **manually update file paths** in `app.py`:
 
-Finding the nearest parking lot
-pdf
+* `.osm` files
+* `.json` data files
+* `map.html` output
 
-Authors
-This project was developed by Group 5 from the Data Structures & Algorithms course at Hanoi University of Science and Technology (HUST):
+Use your system’s file explorer to locate correct paths.
 
-Phan Khôi Nguyên
-Lê Bá Nhật Nguyên
-Đào Nguyên Minh Vũ
+---
+
+## 📄 Test Cases
+
+* [Shortest Path Example PDF](./testcases/shortest_path_example.pdf)
+* [Nearest Parking Lot Example PDF](./testcases/nearest_parking_example.pdf)
+
+---
+
+## 👨‍💻 Authors
+
+Developed by **Group 5** from the *Data Structures & Algorithms* course at **Hanoi University of Science and Technology (HUST)**:
+
+* Phan Khôi Nguyên
+* Lê Bá Nhật Nguyên
+* Đào Nguyên Minh Vũ
+
+---
