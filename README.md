@@ -92,8 +92,10 @@ Use your system’s file explorer to locate correct paths.
 
 ## 📄 Test Cases
 
-* [Shortest Path Example PDF](./testcases/shortest_path_example.pdf)
-* [Nearest Parking Lot Example PDF](./testcases/nearest_parking_example.pdf)
+<img width="1914" height="921" alt="image" src="https://github.com/user-attachments/assets/d8fe4d0f-90dc-4284-84f4-eae63bcaed92" />
+<img width="1215" height="843" alt="image" src="https://github.com/user-attachments/assets/87bc47e8-6ad6-460e-bfc1-d2608443fe9c" />
+<img width="1616" height="733" alt="image" src="https://github.com/user-attachments/assets/f276e80c-3e9d-423c-92ce-ef04522a3dde" />
+
 
 ---
 
