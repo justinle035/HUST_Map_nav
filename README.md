@@ -1,6 +1,6 @@
 ---
 
-# 🚗 HUST Map Shortest Path & Nearest Parking Finder
+# HUST Map Shortest Path & Nearest Parking Finder
 
 A Python-based web application to help users:
 
