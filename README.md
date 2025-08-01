@@ -4,12 +4,12 @@
 
 A Python-based web application to help users:
 
-* 🔍 **Find the shortest path** between two locations on the Hanoi University of Science and Technology (HUST) campus map
-* 🅿️ **Locate the nearest parking lot** using Dijkstra’s algorithm
+*  **Find the shortest path** between two locations on the Hanoi University of Science and Technology (HUST) campus map
+*  **Locate the nearest parking lot** using Dijkstra’s algorithm
 
 ---
 
-## 📦 Features
+## Features
 
 * Interactive web interface built with Flask
 * Route visualization on a dynamic map
@@ -17,7 +17,7 @@ A Python-based web application to help users:
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 * Python 3.x
 * Flask-compatible environment
@@ -26,7 +26,7 @@ A Python-based web application to help users:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 
@@ -35,7 +35,7 @@ git clone https://github.com/knguyenz/hustnav1
 cd hustnav1
 ```
 
-> ⚠️ **Note:** This project uses **absolute paths** in `app.py`. You will need to **update them to your local machine paths** (see [Notes on File Paths](#-notes-on-file-paths)).
+> **Note:** This project uses **absolute paths** in `app.py`. You will need to **update them to your local machine paths** (see [Notes on File Paths](#-notes-on-file-paths)).
 
 ---
 
@@ -55,11 +55,11 @@ python app.py
 ```
 
 The server will start at:
-📍 **[http://localhost:5000](http://localhost:5000)**
+**[http://localhost:5000](http://localhost:5000)**
 
 ---
 
-## 🌐 Using the App
+## Using the App
 
 1. Open your browser and navigate to:
    **[http://localhost:5000](http://localhost:5000)**
@@ -78,7 +78,7 @@ The server will start at:
 
 ---
 
-## 📁 Notes on File Paths
+## Notes on File Paths
 
 Make sure to **manually update file paths** in `app.py`:
 
@@ -90,7 +90,7 @@ Use your system’s file explorer to locate correct paths.
 
 ---
 
-## 📄 Test Cases
+## Test Cases
 
 <img width="1914" height="921" alt="image" src="https://github.com/user-attachments/assets/d8fe4d0f-90dc-4284-84f4-eae63bcaed92" />
 <img width="1215" height="843" alt="image" src="https://github.com/user-attachments/assets/87bc47e8-6ad6-460e-bfc1-d2608443fe9c" />
@@ -99,7 +99,7 @@ Use your system’s file explorer to locate correct paths.
 
 ---
 
-## 👨‍💻 Authors
+## Authors
 
 Developed by **Group 5** from the *Data Structures & Algorithms* course at **Hanoi University of Science and Technology (HUST)**:
 
